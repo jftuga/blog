@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I am a System Administrator at the [University of Georgia(https://uga.edu) who is passionate about automating business processes and streamlining various tasks by using `GoLang`, `Python`, and `PowerShell`. I also contract for [Right Round](https://rightround.com) which specializes in internet connectivity and WiFi anywhere for conferences, events, and festivals.
