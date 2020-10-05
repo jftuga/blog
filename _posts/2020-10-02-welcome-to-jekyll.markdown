@@ -1,9 +1,42 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Jekyll Notes"
 date:   2020-10-02 14:54:27 +0000
-categories: jekyll update
+categories: jekyll
 ---
+
+# Ubuntu 20.04 Install Notes
+
+## Jekyll Install
+* https://jekyllrb.com/docs/installation/ubuntu/
+
+## GitHub Pages
+* create new repo w/ README.md
+* change settings
+* * GitHub Pages
+* * Source: **Branch**:`main` **Folder**:`/ (root)`
+* * *Save*
+
+## GitHub + Jekyll
+* git clone https://url/.../blog.git
+* cd blog
+* jekyll new . --force
+* bundle exec jekyll serve --host=0.0.0.0 --livereload
+
+## Config
+* Modify `_config.yml`: title, description, baseurl, url, etc.
+* Modify `Gemfile`: 
+* * remove this line: `gem "jekyll"...`
+* * uncomment this line: `gem "github-pages"...`
+
+## Ruby Gems
+* After the `Gemfile` is modified, run these commands:
+* * bundle update
+* * bundle install
+
+
+___
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
