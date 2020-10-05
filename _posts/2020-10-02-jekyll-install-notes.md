@@ -16,6 +16,7 @@ categories: jekyll
 * * GitHub Pages
 * * Source: **Branch**:`main` **Folder**:`/ (root)`
 * * *Save*
+* [Mastering GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ## GitHub + Jekyll
 * git clone https://url/.../blog.git
