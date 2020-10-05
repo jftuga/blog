@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "GoLang Debugging"
-date:   2020-10-02 20:05:35 +0000
-categories: golang dlv
+date:   2020-09-11 15:14:43 +0000
+categories: GoLang dlv Programming
 ---
 
 ## How to start and run `dlv` -- the GoLang debugger

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll Notes"
+title:  "Jekyll Install and Blogging Notes"
 date:   2020-10-02 14:54:27 +0000
 categories: jekyll
 ---
