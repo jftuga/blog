@@ -47,6 +47,11 @@ categories: jekyll
 * * You will now need to rerun: `bundle update`
 * * Followed by: `bundle exec jekyll serve --host=0.0.0.0 --livereload --incremental`
 
+## Redirection
+* To rediect `https://username.github.io` to`https://username.github.io/blog/`, see the following instructions:
+* [Redirecting GitHub Pages](https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7)
+* You should also set the Jekyll theme to `jekyll-theme-minimal` in the `_config.yml` file
+
 ___
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
