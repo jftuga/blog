@@ -26,7 +26,8 @@ url: "https://jftuga.github.io" # the base hostname & protocol for your site, e.
 github_username:  jftuga
 
 # Build settings
-theme: minima
+# 2020-10-05: removed minima theme as it is now a "regualar" theme
+#theme: minima
 plugins:
   - jekyll-feed
 
