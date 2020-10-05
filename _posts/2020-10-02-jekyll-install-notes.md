@@ -34,7 +34,18 @@ categories: jekyll
 * After the `Gemfile` is modified, run these commands:
 * * bundle update
 * * bundle install
+* * To rebuild the sitr: `bundle exec jekyll build`
 
+## Modifying the Theme
+* * Location of *Theme* listed in `_config.yml`: `bundle info --path minima`
+* * Copy that subdirectory's `_layout` folder to underneath the current `blog` folder.
+* * * This will override the theme's defaults.
+* * * Ex: `~/gems/gems/minima-2.5.1$ cp -av _layouts/ ~jftuga/blog/`
+* * The same can be done with the other folders: `_includes`, `_sass`, and `assets`
+* * * Once this is done, you can remove this line from your `_config.yml` file: `theme: minima`
+* * * You also need to remove this line from your `Gemfile` file: `gem "minima", "~> 2.5"`
+* * You will now need to rerun: `bundle update`
+* * Followed by: `bundle exec jekyll serve --host=0.0.0.0 --livereload --incremental`
 
 ___
 
