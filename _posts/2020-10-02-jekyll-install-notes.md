@@ -8,7 +8,7 @@ categories: jekyll
 # Ubuntu 20.04 Install Notes
 
 ## Jekyll Install
-* https://jekyllrb.com/docs/installation/ubuntu/
+* [Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/)
 
 ## GitHub Pages
 * create new repo w/ README.md
