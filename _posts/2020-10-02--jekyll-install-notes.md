@@ -52,6 +52,37 @@ categories: jekyll
 * [Redirecting GitHub Pages](https://gist.github.com/domenic/1f286d415559b56d725bee51a62c24a7)
 * You should also set the Jekyll theme to `jekyll-theme-minimal` in the `_config.yml` file
 
+## Running locally on Raspberry Pi 3 with Buster
+* [Installing Jekyll on a Raspberry Pi](https://dave.thwaites.org.uk/website/installing-jekyll.html)
+* * Updated the ruby version to `2.6.6` in this file: [install_ruby_rpi.sh](https://gist.github.com/blacktm/8302741)
+
+* [Fix for this error](https://github.com/jekyll/jekyll/issues/4268):
+
+```
+    Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/styles.scss':
+                    Invalid US-ASCII character "\xE2" on line 3
+```
+
+1) Remove or replace all non-ascii characters in your blog by running: `grep --color='auto' -P -n "[\x80-\xFF]" *`
+2) Follow [these instructions](https://github.com/jekyll/jekyll/issues/4268#issuecomment-167406574) to change the `locale`:
+
+```
+# Install program to configure locales
+RUN apt-get install -y locales
+RUN dpkg-reconfigure locales && \
+  locale-gen C.UTF-8 && \
+  /usr/sbin/update-locale LANG=C.UTF-8
+
+# Install needed default locale for Makefly
+RUN echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen && \
+  locale-gen
+
+# Set default locale for the environment
+ENV LC_ALL C.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.UTF-8
+```
+
 ___
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
