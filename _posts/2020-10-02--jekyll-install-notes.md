@@ -65,13 +65,13 @@ categories: jekyll
 
 1) Add this to your `_config.yml` file:
 
-1) `encoding: utf-8`
+2) `encoding: utf-8`
 
-1) Remove or replace all non-ascii characters in your blog by running:
+3) Remove or replace all non-ascii characters in your blog by running:
 
-1) `grep --color='auto' -P -n "[\x80-\xFF]" *`
+4) `grep --color='auto' -P -n "[\x80-\xFF]" *`
 
-1) Follow [these instructions](https://github.com/jekyll/jekyll/issues/4268#issuecomment-167406574) to change the `locale`:
+5) Follow [these instructions](https://github.com/jekyll/jekyll/issues/4268#issuecomment-167406574) to change the `locale`:
 
 ```
 # Install program to configure locales
@@ -89,6 +89,8 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 ```
+
+6) You may need to reboot after making this change.
 
 ___
 
