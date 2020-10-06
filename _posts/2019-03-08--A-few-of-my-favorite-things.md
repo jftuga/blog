@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A few of my favorite things"
+title: "A few of my favorite SysAdmin things that I have written"
 date: 2019-03-08 17:33:36 +0000
 categories: sysadmin
 ---
