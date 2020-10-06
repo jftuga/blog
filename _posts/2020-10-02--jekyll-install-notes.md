@@ -63,6 +63,10 @@ categories: jekyll
                     Invalid US-ASCII character "\xE2" on line 3
 ```
 
+1) Add this to your `_config.yml` file:
+
+1) `encoding: utf-8`
+
 1) Remove or replace all non-ascii characters in your blog by running:
 
 1) `grep --color='auto' -P -n "[\x80-\xFF]" *`
