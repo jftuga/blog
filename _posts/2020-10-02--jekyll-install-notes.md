@@ -63,8 +63,11 @@ categories: jekyll
                     Invalid US-ASCII character "\xE2" on line 3
 ```
 
-1) Remove or replace all non-ascii characters in your blog by running: `grep --color='auto' -P -n "[\x80-\xFF]" *`
-2) Follow [these instructions](https://github.com/jekyll/jekyll/issues/4268#issuecomment-167406574) to change the `locale`:
+1) Remove or replace all non-ascii characters in your blog by running:
+
+1) `grep --color='auto' -P -n "[\x80-\xFF]" *`
+
+1) Follow [these instructions](https://github.com/jekyll/jekyll/issues/4268#issuecomment-167406574) to change the `locale`:
 
 ```
 # Install program to configure locales
