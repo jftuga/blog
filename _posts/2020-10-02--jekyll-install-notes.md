@@ -92,6 +92,10 @@ ENV LANGUAGE en_US.UTF-8
 
 6) You may need to reboot after making this change.
 
+7) Now, you should be able to run:
+
+8) `bundle exec jekyll serve --host=0.0.0.0 --livereload --incremental --verbose`
+
 ___
 
 ## Original Post Below
