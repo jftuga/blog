@@ -36,7 +36,7 @@ This is similar to running `(do something) | sort | uniq -c | sort -nr`, but usu
 
 ___
 
-[dcmp](https://github.com/jftuga/dcmp)
+[dcmp](https://github.com/jftuga/dcmp-py)
 
 * Directory Compare
 * Compare files within two directory trees for equivalency
