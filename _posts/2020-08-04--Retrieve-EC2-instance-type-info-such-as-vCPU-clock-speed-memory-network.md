@@ -14,5 +14,5 @@ I created this for a friend and thought it might be useful to others.  Since he 
 
 I have also written a cross-platform program to get `spotprice` information which I think is a little easier than using the `aws` CLI. It also runs faster and has a few more features.
 
-* spotprice: https://github.com/jftuga/spotprice
+* spotprice: [https://github.com/jftuga/spotprice](https://github.com/jftuga/spotprice)
 
