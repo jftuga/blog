@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TBD"
+title: "A Couple of Quick Command Line Tips"
 date: 2017-12-10 04:20:35 +0000
 categories: sysadmin windows command-line
 ---
