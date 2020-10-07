@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "PSA: Improving GNU sort speed"
+title: "Improving GNU sort speed"
 date: 2018-12-19 04:42:02 +0000
-categories: commandline
+categories: command-line
 ---
 
 You can drastically improve the speed of GNU sort by using a few of its command line options.
