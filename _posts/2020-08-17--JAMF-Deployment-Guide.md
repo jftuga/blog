@@ -148,4 +148,4 @@ ___
 * * Right: Edit
 * * Right: under Trusted Server Certificate Names, click Add
 * * Right: Input the hostname that is serving the certificate. 
-* * * Example: &radius.idm.school.edu*
+* * * Example: *radius.idm.school.edu*
