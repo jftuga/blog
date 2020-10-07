@@ -6,7 +6,9 @@ categories: sysadmin jamf
 ---
 
 These are my notes on deploying iPads with JAMF.  They only run internally and are locked down with a very limited number of apps.  The iPads are managed via JAMF Cloud.
+
 ___
+
 
 ## Import an unmanaged or new iPad into Apple
 * Only Step
