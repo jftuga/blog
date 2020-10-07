@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "JAMF Deployment Guide"
+title: "JAMF iPad Deployment Guide"
 date: 2020-08-17
-categories: sysadmin jamf
+categories: sysadmin jamf ipad
 ---
 
 These are my notes on deploying iPads with JAMF.  They only run internally and are locked down with a very limited number of apps.  The iPads are managed via JAMF Cloud.
