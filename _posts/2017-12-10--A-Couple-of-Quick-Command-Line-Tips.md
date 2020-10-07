@@ -35,4 +35,4 @@ Or separate them:
 
 You can also pipe a command to *cmd*.  This is a contrived example, but you get the idea:
 
-    `echo ping 8.8.8.8 | cmd`
+    echo ping 8.8.8.8 | cmd
