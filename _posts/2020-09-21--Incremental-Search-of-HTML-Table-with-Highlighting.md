@@ -124,7 +124,7 @@ keyword.addEventListener('keyup', function () {
 
 The Python `list` containing the employee information gets pushed into the above HTML template where the `__PHONE_DATA__` place holder resides.  Since phone numbers are only updated once a day, I regenerate this HTML file each night via a Windows Schedule Task.
 
-Please try out a **live, working example** on jsfiddle: [Incremental Search of HTML Table with Highlighting](https://jsfiddle.net/jftuga/L3oxtsz2/17/)
+Please try out a **live, working example** on jsfiddle: [Incremental Search of HTML Table with Highlighting](https://jsfiddle.net/jftuga/L3oxtsz2/19/)
 
 ___
 
