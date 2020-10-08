@@ -5,6 +5,8 @@ date: 2020-09-21
 categories: javascript programming
 ---
 
+**TL;DR:** Please try out a **live, working example** on jsfiddle: [Incremental Search of HTML Table with Highlighting](https://jsfiddle.net/jftuga/L3oxtsz2/19/)
+
 I wanted a way to enhance our internal phone extension list.  Another department manages an Excel spreadsheet with this information. They then publish it to SharePoint Online as a non-searchable PDF.  One goal of this format is that all 200+ names should be able to be printed on a single page. The spreadsheet looks something like this:
 
 Last, First | Extension | Dept | Last, First | Extension | Dept | Last, First | Extension | Dept 
