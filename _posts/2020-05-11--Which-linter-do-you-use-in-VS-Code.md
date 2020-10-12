@@ -22,3 +22,21 @@ ___
 
 [Reddit discussion](https://www.reddit.com/r/Python/comments/gheine/which_linter_do_you_use_in_vs_code/)
 
+___
+
+**Update:** October 20, 2020
+
+I want to use `VS Code` integration while linting remotely on a *Raspberry Pi 4*.  Speed is important in this scenario.
+This is a very rudimentary benchmark...
+
+Program | Speed
+--------| -----
+bandit      | **not a linter**
+flake8      | **fast**
+mypy        | **very slow**
+prospector  | **very slow**
+pycodestyle | **not a linter**
+pydocstyle  | **not a linter**
+pylama      | **good**
+pylint      | **slow**
+
