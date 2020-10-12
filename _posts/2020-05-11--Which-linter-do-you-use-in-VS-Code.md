@@ -40,3 +40,10 @@ pydocstyle  | **not a linter**
 pylama      | **good**
 pylint      | **slow**
 
+___
+
+For `VS Code`, I am using the following `Flake8 Args`.  This is simply to accommodate my own coding style.
+
+* --ignore
+* E201,E202,E226,E231,E302,E501
+
