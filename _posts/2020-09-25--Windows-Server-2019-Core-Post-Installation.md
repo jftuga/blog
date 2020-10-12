@@ -33,6 +33,9 @@ Here is a quick *TO DO* list of things that need to be done after a OOB Server 2
 ## Install Antivirus
 * Reboot after installation
 
+## Monitoring
+* Add VM to your monitoring system, including ping and monitoring service health
+
 ## AD Protection
 In AD, move the new VM to the appropriate OU under Servers, and the under its object tab, click Protect from Accidental Deletion
 
