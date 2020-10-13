@@ -6,7 +6,7 @@ categories: powershell
 ---
 
 
-## [PowerShell Test-is64bit](https://gist.github.com/jftuga/97447fef14969cfe2a91988d953e26c0)
+## gist: [PowerShell Test-is64bit](https://gist.github.com/jftuga/97447fef14969cfe2a91988d953e26c0)
 
 **File:** Test-is64bit.ps1
 

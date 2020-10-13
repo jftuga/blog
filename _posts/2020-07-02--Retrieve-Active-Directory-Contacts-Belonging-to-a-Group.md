@@ -6,7 +6,7 @@ categories: c# active-directory
 ---
 
 
-## [Retrieve Active Directory Contacts Belonging to a Group](https://gist.github.com/jftuga/b50c31d3b77795a2397975da7cd3b222)
+## gist: [Retrieve Active Directory Contacts Belonging to a Group](https://gist.github.com/jftuga/b50c31d3b77795a2397975da7cd3b222)
 
 **File:** active_directory_contacts.cs
 

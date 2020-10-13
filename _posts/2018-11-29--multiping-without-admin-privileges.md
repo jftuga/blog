@@ -6,7 +6,7 @@ categories: c# networking sysadmin
 ---
 
 
-## [multiping without admin privileges](https://gist.github.com/jftuga/482be32ad050deb91512839b57642654)
+## gist: [multiping without admin privileges](https://gist.github.com/jftuga/482be32ad050deb91512839b57642654)
 
 **File:** mping.cs
 

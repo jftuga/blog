@@ -6,7 +6,7 @@ categories: golang
 ---
 
 
-## [demonstrates how to either write to STDOUT or to a buffer in golang](https://gist.github.com/jftuga/4c8b998ad4c581742f425b92d77765ba)
+## gist: [demonstrates how to either write to STDOUT or to a buffer in golang](https://gist.github.com/jftuga/4c8b998ad4c581742f425b92d77765ba)
 
 **File:** bufWrite.go
 

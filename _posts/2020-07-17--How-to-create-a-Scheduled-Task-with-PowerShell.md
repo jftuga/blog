@@ -6,7 +6,7 @@ categories: powershell
 ---
 
 
-## [How to create a Scheduled Task with PowerShell](https://gist.github.com/jftuga/da9558855bf3a077a8cb7077ad4bcf7c)
+## gist: [How to create a Scheduled Task with PowerShell](https://gist.github.com/jftuga/da9558855bf3a077a8cb7077ad4bcf7c)
 
 **File:** create_scheduled_task.ps1
 

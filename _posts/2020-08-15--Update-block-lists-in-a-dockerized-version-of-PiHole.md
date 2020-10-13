@@ -6,7 +6,7 @@ categories: shell docker pihole
 ---
 
 
-## [Update block lists in a dockerized version of PiHole](https://gist.github.com/jftuga/48e008acf7c5e24dbca002311d88cea7)
+## gist: [Update block lists in a dockerized version of PiHole](https://gist.github.com/jftuga/48e008acf7c5e24dbca002311d88cea7)
 
 **File:** update_pihole_block_lists.sh
 

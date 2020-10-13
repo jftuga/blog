@@ -6,7 +6,7 @@ categories: shell raspberrypi sysadmin
 ---
 
 
-## [Raspberry Pi backup script](https://gist.github.com/jftuga/7559ee580bfb283033a210e559ade77e)
+## gist: [Raspberry Pi backup script](https://gist.github.com/jftuga/7559ee580bfb283033a210e559ade77e)
 
 **File:** make_backup.sh
 

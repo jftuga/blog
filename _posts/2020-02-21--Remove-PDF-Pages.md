@@ -6,7 +6,7 @@ categories: powershell pdf pdfcpu
 ---
 
 
-## [Remove PDF Pages](https://gist.github.com/jftuga/5829db3b50428073a98b323f419e83ec)
+## gist: [Remove PDF Pages](https://gist.github.com/jftuga/5829db3b50428073a98b323f419e83ec)
 
 **File:** Remove_PDF_Pages.ps1
 

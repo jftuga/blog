@@ -6,7 +6,7 @@ categories: batchfile json jq
 ---
 
 
-## [Quick jq example](https://gist.github.com/jftuga/e72c5089c060586d1b23041ca6a3870c)
+## gist: [Quick jq example](https://gist.github.com/jftuga/e72c5089c060586d1b23041ca6a3870c)
 
 **File:** getNames.bat
 
