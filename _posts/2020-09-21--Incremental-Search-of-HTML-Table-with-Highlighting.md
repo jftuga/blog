@@ -30,8 +30,8 @@ The function below reads data from the Excel spreadsheet and returns a sorted `l
         """ read all rows and columns of the Excel spredsheet defined by 'sheet'
             'self.phone_data' is a list that will be populated with delimited strings
             in this format: {name};{extension};{dept}
-            conveniently, each string starts with a person's last name, which is how
-            the list should be sorted
+            conveniently, each string starts with a person's last name, which is also
+            how the list should be sorted
         """
         wb = openpyxl.load_workbook(filename = self.source_xlsx, read_only=True)
         sheet = wb["Sheet1"]
@@ -58,7 +58,7 @@ The function below reads data from the Excel spreadsheet and returns a sorted `l
 {% endhighlight %}
 
 Now that the data is ready, how can it be processed by Javascript?  I found this jsfiddle: [Incremental Search without Library](https://jsfiddle.net/bc_rikko/67ovedcm/).  This example works great, but it is
-for a `list` and not a `table`. I also want to be able to incrementally search any of the three columns, not just name. Highlight the search term in each result will also be included.
+for a `list` and not a `table`. I also want to be able to incrementally search any of the three columns, not just the name column. As a bonus, highlighting the search term in each result will also be included.
 
 Initally, this code will display all 200+ entries.  As you start typing, these entries are whittled down via your search phrase.
 
@@ -124,7 +124,7 @@ keyword.addEventListener('keyup', function () {
 //]]></script>
 {% endhighlight %}
 
-The Python `list` containing the employee information gets pushed into the above HTML template where the `__PHONE_DATA__` place holder resides.  Since phone numbers are only updated once a day, I regenerate this HTML file each night via a Windows Schedule Task.
+The Python `list` containing the employee information gets pushed into the above HTML template where the `__PHONE_DATA__` place holder resides.  Since phone numbers are only updated once a day, I regenerate this HTML file each night via a Windows Scheduled Task.
 
 Please try out a **live, working example** on jsfiddle: [Incremental Search of HTML Table with Highlighting](https://jsfiddle.net/jftuga/L3oxtsz2/19/)
 
@@ -132,8 +132,8 @@ ___
 
 ##  Conclusion
 
-* Win #1 - The spreadsheet maintainers do not have to change their input method.
-* Win #2 - Employees can now more easily find internal names, phone numbers, and departments.
+* **Win #1** - The spreadsheet maintainers do not have to change their input method.
+* **Win #2** - Employees can now more easily find internal names, phone numbers, and departments.
 * * If they happen to know regular expressions, they can use them in the search box!
-* **Bonus Win** - Now that I have each employee name and number, I can match their name in `Active Directory` and then populate their `OfficePhone` attribute with their phone number.
+* **Bonus Win** - Now that I have each employee name and number, I can match it to their `Active Directory` User object and then populate their `OfficePhone` attribute with their phone number.
 * * This could also be done with the `Department` attribute.
