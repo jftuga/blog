@@ -15,3 +15,8 @@ You can split one window into multiple panes. These can be either horizontal or 
 
 Two people can attach to the same session.  I could see this being useful in a training or troubleshooting scenario.
 
+___
+
+## tmux.conf
+* [https://github.com/jftuga/universe/blob/master/tmux.conf](https://github.com/jftuga/universe/blob/master/tmux.conf)
+
