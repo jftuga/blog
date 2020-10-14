@@ -49,5 +49,10 @@ For `VS Code`, I am using the following `Flake8 Args`.  This is simply to accomm
 * --ignore
 * E201,E202,E226,E231,E302,E501
 
-See also: [https://code.visualstudio.com/docs/python/linting](https://code.visualstudio.com/docs/python/linting)
+___
+
+**See Also**
+
+* [Linting Python in Visual Studio Code](https://code.visualstudio.com/docs/python/linting)
+* [Curated awesome list of flake8 extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions)
 
