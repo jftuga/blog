@@ -25,8 +25,8 @@ ___
 
 **Update:** October 12, 2020
 
-I want to use `VS Code` integration while linting remotely on a *Raspberry Pi 4*.  Speed is important in this scenario.
-This is a very rudimentary benchmark...
+Since I want to use `VS Code` integration while linting remotely on a *Raspberry Pi 4*, speed is important in this scenario.
+This is my *very rudimentary* benchmark of several linters.
 
 Program | Speed
 --------| -----
