@@ -20,7 +20,9 @@ Which one do you use and why?
 
 ___
 
-[Reddit discussion](https://www.reddit.com/r/Python/comments/gheine/which_linter_do_you_use_in_vs_code/)
+
+* [Thorough Reddit Diecussion](https://www.reddit.com/r/Python/comments/jar4rd/linters_which_one/)
+* [Original Reddit Discussion](https://www.reddit.com/r/Python/comments/gheine/which_linter_do_you_use_in_vs_code/)
 
 ___
 
