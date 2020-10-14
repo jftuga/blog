@@ -18,11 +18,8 @@ VS Code gives the following choices for a linter:
 
 Which one do you use and why?
 
-___
-
-
-* [Thorough Reddit Diecussion](https://www.reddit.com/r/Python/comments/jar4rd/linters_which_one/)
 * [Original Reddit Discussion](https://www.reddit.com/r/Python/comments/gheine/which_linter_do_you_use_in_vs_code/)
+* [Thorough Reddit Diecussion](https://www.reddit.com/r/Python/comments/jar4rd/linters_which_one/)
 
 ___
 
