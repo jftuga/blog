@@ -3,6 +3,7 @@ layout: post
 title: "Incremental Search of HTML Table with Highlighting"
 date: 2020-09-21
 categories: javascript programming
+excerpt: Take a look at the TLDR. This is a nice way to have a self-contained web page search.
 ---
 
 **TL;DR:** Please try out a **live, working example** on jsfiddle: [Incremental Search of HTML Table with Highlighting](https://jsfiddle.net/jftuga/L3oxtsz2/19/)

@@ -3,6 +3,7 @@ layout: post
 title:  "GoLang Debugging"
 date:   2020-09-11 15:14:43 +0000
 categories: GoLang dlv Programming
+excerpt: A very short delve how-to
 ---
 
 ## How to start and run `dlv` -- the GoLang debugger

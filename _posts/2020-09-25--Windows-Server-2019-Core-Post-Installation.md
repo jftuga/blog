@@ -3,6 +3,7 @@ layout: post
 title: "Windows Server 2019 Core Post Installation"
 date: 2020-09-25 13:34:00 +0000
 categories: windows command-line
+excerpt: This is a good list of things to do after spinning up a Windows VM.
 ---
 
 Here is a quick *TO DO* list of things that need to be done after a OOB Server 2019 Core install.  These steps should also be executed for the *Desktop Experience* version, as well. I've had this list for a while now, but thought it would be good to post it.

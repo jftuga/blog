@@ -3,6 +3,7 @@ layout: post
 title: "Is there a program to help you document Python functions?"
 date: 2020-09-17 22:08:13 +0000
 categories: python
+excerpt: If you use VS Code for Python, this plug-in will improve your development process.
 ---
 
 Here is an interesting [reddit post](https://www.reddit.com/r/Python/comments/iuoxt0/is_there_a_program_to_help_you_document_python/) that I made on /r/Python
