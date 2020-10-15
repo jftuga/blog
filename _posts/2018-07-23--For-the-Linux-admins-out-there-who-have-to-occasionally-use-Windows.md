@@ -3,6 +3,7 @@ layout: post
 title: "For the Linux admins out there who have to occasionally use Windows..."
 date: 2018-07-23 06:04:52 +0000
 categories: sysadmin command-line
+excerpt: A short similarity list between the Windows and Linux command lines
 ---
 
 For the Linux admins out there who have to occasionally use Windows, you can do the following from a Windows cmd prompt:

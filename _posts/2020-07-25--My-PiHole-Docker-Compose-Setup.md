@@ -3,6 +3,7 @@ layout: post
 title: "My PiHole Docker Compose Setup"
 date: 2020-07-25 16:44:27 +0000
 categories: pihole docker
+excerpt: A method to version your docker containers and revert to older one if needed
 ---
 
 I prefer to use *versioned* docker images instead of always pulling from `latest`.  This enables hassle free upgrades: if you run a new image version and it's buggy, then it's very easy to revert back to a known good version.

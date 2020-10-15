@@ -3,6 +3,7 @@ layout: post
 title: "Retrieve EC2 instance type info such as vCPU, clock speed, memory, network"
 date: 2020-08-04 01:57:49 +0000
 categories: aws
+excerpt: Using the AWS CLI and JQ to extract EC2 instance-type meta data
 ---
 
 I wrote a script to retrieve EC2 instance type info such as vCPU, clock speed, memory, network and save it to a tab-separated file.  It's just a nice wrapper around the `aws` command.

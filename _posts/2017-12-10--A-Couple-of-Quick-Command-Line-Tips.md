@@ -3,6 +3,7 @@ layout: post
 title: "A Couple of Quick Command Line Tips"
 date: 2017-12-10 04:20:35 +0000
 categories: sysadmin windows command-line
+excerpt: A few Windows command-line file redirection tips that should be familiar to Linux users
 ---
 
 If you just want a quick way to create or append to a text file, you can do something this:

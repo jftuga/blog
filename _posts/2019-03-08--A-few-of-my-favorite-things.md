@@ -3,6 +3,7 @@ layout: post
 title: "A few of my favorite SysAdmin things that I have written"
 date: 2019-03-08 17:33:36 +0000
 categories: sysadmin
+excerpt: A summary of over 10 of my GitHub projects - most of these are stand-alone command-line executables
 ---
 
 I'd like to share with you some of my command-line tools that I have written to make my job easier.  These are cross-platform (Windows, Linux, MacOS). I have also provided Windows binaries (usually found in a releases section).  Most of my programs are either written in Python 3.5 or Go. My over-arching goal is to provide a self-contained, single binary or single .py file to maximize usability.

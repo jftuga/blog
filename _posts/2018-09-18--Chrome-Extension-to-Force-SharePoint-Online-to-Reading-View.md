@@ -3,6 +3,7 @@ layout: post
 title: "Chrome Extension to Force SharePoint Online to Reading View"
 date: 2018-09-18 21:46:01 +0000
 categories: sysadmin
+excerpt: An Chrome extension to make SharePoint more user-friendly.  Originally used internally, it is now used daily by over 1,000 people.
 ---
 
 - [Chrome Store](https://chrome.google.com/webstore/detail/spo-view-it/omljlibfjloccmdmmlpcnlijjneabhjm)

@@ -3,6 +3,7 @@ layout: post
 title: "Why I Switched From screen To tmux"
 date: 2020-06-01 19:12:18 +0000
 categories: commandline tmux linux
+excerpt: I finlly took the plunge to learn tmux and it's great!
 ---
 
 I have used `screen` since the 90s and these are the features along with being able to use screen key bindings *(ctrl-a as the PREFIX)* is what made me switch to `tmux`.  Please look at the *tutorial* at the top of my [.tmux.conf](https://github.com/jftuga/universe/blob/master/tmux.conf) file to see a few more things it can do.  `screen` may also have these same features, but I wanted to learn `tmux` anyway because it seems to be more popular now.

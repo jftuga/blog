@@ -3,6 +3,7 @@ layout: post
 title: "Quick JQ Example"
 date: 2019-12-31 15:00:10 +0000
 categories: batchfile json jq
+excerpt: Wrapping my head around jq and how to use it to filter data
 ---
 
 
