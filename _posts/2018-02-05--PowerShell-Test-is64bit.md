@@ -2,7 +2,7 @@
 layout: post
 title: "PowerShell Test-is64bit"
 date: 2018-02-05 04:28:14 +0000
-categories: 2018
+category: 2018
 tags: powershell
 excerpt: A PS function to determine if an executable is 32 or 64 bit
 ---

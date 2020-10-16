@@ -2,7 +2,7 @@
 layout: post
 title: "Incremental Search of HTML Table with Highlighting"
 date: 2020-09-21
-categories: 2020
+category: 2020
 tags: javascript programming
 excerpt: Take a look at the TLDR. This is a nice way to have a self-contained web page search.
 ---

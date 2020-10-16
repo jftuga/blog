@@ -2,7 +2,7 @@
 layout: post
 title: "How to create a Scheduled Task with PowerShell"
 date: 2020-07-17 11:43:37 +0000
-categories: 2020
+category: 2020
 tags: powershell
 excerpt: Creating Scheduled Tasks via PowerShell can be useful in a Server Core environment.
 ---

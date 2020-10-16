@@ -2,7 +2,7 @@
 layout: post
 title: "Remove PDF Pages"
 date: 2020-02-21 00:52:04 +0000
-categories: 2020
+category: 2020
 tags: powershell pdf pdfcpu
 excerpt: PowerShell can provide a simple GUI.  This can be used to remove pages from a PDF, such as a FAX cover sheet.
 ---

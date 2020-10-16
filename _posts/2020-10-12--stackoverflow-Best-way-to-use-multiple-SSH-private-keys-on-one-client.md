@@ -2,7 +2,7 @@
 layout: post
 title: "stackoverflow: Best way to use multiple SSH private keys on one client"
 date: 2020-10-12 19:26:31 +0000
-categories: 2020
+category: 2020
 tags: ssh ssh-keys openssh
 excerpt: How to efficiently connect to multiple systems via SSH using key authentication
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "How to Either Write to STDOUT or to a Buffer in GoLang"
 date: 2019-09-09 09:18:53 +0000
-categories: 2019
+category: 2019
 tags: golang
 excerpt: Use a single bufio variable to output to either a file or the screen.
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "A few of my favorite SysAdmin things that I have written"
 date: 2019-03-08 17:33:36 +0000
-categories: 2019
+category: 2019
 tags: sysadmin
 excerpt: A summary of over 10 of my GitHub projects - most of these are stand-alone command-line executables
 ---

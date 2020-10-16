@@ -2,7 +2,7 @@
 layout: post
 title: "Use the Windows command-line tool, clip.exe, to redirect output to the clipboard"
 date: 2018-05-18 21:34:43 +0000
-categories: 2018
+category: 2018
 tags: command-line
 excerpt: A short tutorial on how to paste into the system clipboard from the Windows command-line
 ---

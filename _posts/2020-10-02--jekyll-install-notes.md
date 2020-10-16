@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll Install and Blogging Notes"
 date:   2020-10-02 14:54:27 +0000
-categories: 2020
+category: 2020
 tags: jekyll
 excerpt: Getting started with Jekyll, GitHub pages, local development, etc.
 ---

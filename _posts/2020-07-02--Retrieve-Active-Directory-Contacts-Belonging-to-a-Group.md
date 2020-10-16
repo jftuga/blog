@@ -2,7 +2,7 @@
 layout: post
 title: "Retrieve Active Directory Contacts Belonging to a Group"
 date: 2020-07-02 13:33:52 +0000
-categories: 2020
+category: 2020
 tags: c# active-directory
 excerpt: Surprisingly, Microsoft does not provide an easy way via PowerShell map Active Directory Contacts to Groups.  C# to the rescue!
 ---
