@@ -2,7 +2,8 @@
 layout: post
 title: "JAMF iPad Deployment Guide"
 date: 2020-08-17
-categories: sysadmin jamf ipad
+categories: 2020
+tags: sysadmin jamf ipad
 excerpt: A recipe book on how to perform various tasks in JAMF Cloud
 ---
 

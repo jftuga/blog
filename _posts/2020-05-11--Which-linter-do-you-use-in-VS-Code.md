@@ -2,7 +2,8 @@
 layout: post
 title: "Which Python linter do you use in VS Code?"
 date: 2020-05-11 05:56:08 +0000
-categories: python
+categories: 2020
+tags: python
 excerpt: A summary of the research I did into Python linting.
 ---
 

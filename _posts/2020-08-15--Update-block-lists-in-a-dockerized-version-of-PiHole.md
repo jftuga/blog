@@ -2,7 +2,8 @@
 layout: post
 title: "Update block lists in a dockerized version of PiHole"
 date: 2020-08-15 11:40:47 +0000
-categories: shell docker pihole
+categories: 2020
+tags: shell docker pihole
 excerpt: Dockerized PiHole does not automatically update block lists. Here is a script to automate this task.
 ---
 

@@ -2,7 +2,8 @@
 layout: post
 title:  "GoLang Debugging"
 date:   2020-09-11 15:14:43 +0000
-categories: GoLang dlv Programming
+categories: 2020
+tags: GoLang dlv Programming
 excerpt: A very short delve how-to
 ---
 

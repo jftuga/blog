@@ -2,7 +2,8 @@
 layout: post
 title: "A Couple of Quick Command Line Tips"
 date: 2017-12-10 04:20:35 +0000
-categories: sysadmin windows command-line
+categories: 2017
+tags: sysadmin windows command-line
 excerpt: A few Windows command-line file redirection tips that should be familiar to Linux users
 ---
 

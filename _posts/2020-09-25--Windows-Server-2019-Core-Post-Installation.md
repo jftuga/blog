@@ -2,7 +2,8 @@
 layout: post
 title: "Windows Server 2019 Core Post Installation"
 date: 2020-09-25 13:34:00 +0000
-categories: windows command-line
+categories: 2020
+tags: windows command-line
 excerpt: This is a good list of things to do after spinning up a Windows VM.
 ---
 
