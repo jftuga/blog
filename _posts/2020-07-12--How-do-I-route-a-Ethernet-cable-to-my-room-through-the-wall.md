@@ -2,8 +2,7 @@
 layout: post
 title: "How do I route a Ethernet cable to my room through the wall?"
 date: 2020-07-12 03:57:08 +0000
-category: 2020
-tags: networking
+categories: networking
 excerpt: In case you ever need to run cable through a finished building...
 ---
 

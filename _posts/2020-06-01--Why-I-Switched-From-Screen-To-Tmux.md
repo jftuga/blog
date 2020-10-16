@@ -2,8 +2,7 @@
 layout: post
 title: "Why I Switched From screen To tmux"
 date: 2020-06-01 19:12:18 +0000
-category: 2020
-tags: commandline tmux linux
+categories: commandline tmux linux
 excerpt: I finlly took the plunge to learn tmux and it's great!
 ---
 

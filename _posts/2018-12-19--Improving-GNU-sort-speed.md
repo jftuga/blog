@@ -2,8 +2,7 @@
 layout: post
 title: "Improving GNU sort speed"
 date: 2018-12-19 04:42:02 +0000
-category: 2018
-tags: command-line
+categories: command-line
 excerpt: How to better use your hardware to reduce GNU sort times
 ---
 

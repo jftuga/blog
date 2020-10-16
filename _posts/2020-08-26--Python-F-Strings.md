@@ -2,8 +2,7 @@
 layout: post
 title:  "In case you didn't know: Python 3.8 f-strings support = for self-documenting expressions and debugging"
 date:   2020-08-26 01:59:10 +0000
-category: 2020
-tags: Python Programming
+categories: Python Programming
 excerpt: Using the = sign within f-strings can speed up Python 3.8 debugging.
 ---
 

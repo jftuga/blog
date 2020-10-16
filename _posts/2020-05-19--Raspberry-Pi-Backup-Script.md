@@ -2,8 +2,7 @@
 layout: post
 title: "Raspberry Pi Backup Script"
 date: 2020-05-19 17:11:45 +0000
-category: 2020
-tags: shell raspberrypi sysadmin
+categories: shell raspberrypi sysadmin
 excerpt: A BASH shell script to backup only certain directories. Used on my RPi devices
 ---
 

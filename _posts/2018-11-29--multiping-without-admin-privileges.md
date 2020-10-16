@@ -2,8 +2,7 @@
 layout: post
 title: "multiping without admin privileges"
 date: 2018-11-29 15:00:33 +0000
-category: 2018
-tags: c# networking sysadmin
+categories: c# networking sysadmin
 excerpt: Here's a way to ping a bunch of systems in parallel.
 ---
 

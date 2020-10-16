@@ -2,8 +2,7 @@
 layout: post
 title: "For the Linux admins out there who have to occasionally use Windows..."
 date: 2018-07-23 06:04:52 +0000
-category: 2018
-tags: sysadmin command-line
+categories: sysadmin command-line
 excerpt: A short similarity list between the Windows and Linux command lines
 ---
 
