@@ -3,6 +3,7 @@ layout: post
 title: "Incremental Search of HTML Table with Highlighting"
 date: 2020-09-21
 categories: javascript programming
+tags: javascript programming
 excerpt: Take a look at the TLDR. This is a nice way to have a self-contained web page search.
 ---
 
@@ -26,36 +27,36 @@ The first step was to use some `Python` code along with the `openpyxl` library w
 
 The function below reads data from the Excel spreadsheet and returns a sorted `list` of Python strings, with each `string` containing: `name;extension;dept`
 
-{% highlight python %}
-    def get_numbers_from_excel(self):
-        """ read all rows and columns of the Excel spredsheet defined by 'sheet'
-            'self.phone_data' is a list that will be populated with delimited strings
-            in this format: {name};{extension};{dept}
-            conveniently, each string starts with a person's last name, which is also
-            how the list should be sorted
-        """
-        wb = openpyxl.load_workbook(filename = self.source_xlsx, read_only=True)
-        sheet = wb["Sheet1"]
-        for row in range(1,sheet.max_row):
-            for column in range(1,sheet.max_column,3):
-                cell=sheet.cell(row=row, column=column)
-                if not cell.value:
-                    continue
-                if row > 200:
-                    break
+{% highlight python linenos %}
+def get_numbers_from_excel(self):
+    """ read all rows and columns of the Excel spredsheet defined by 'sheet'
+        'self.phone_data' is a list that will be populated with delimited strings
+        in this format: {name};{extension};{dept}
+        conveniently, each string starts with a person's last name, which is also
+        how the list should be sorted
+    """
+    wb = openpyxl.load_workbook(filename = self.source_xlsx, read_only=True)
+    sheet = wb["Sheet1"]
+    for row in range(1,sheet.max_row):
+        for column in range(1,sheet.max_column,3):
+            cell=sheet.cell(row=row, column=column)
+            if not cell.value:
+                continue
+            if row > 200:
+                break
 
-                name = cell.value
-                cell = sheet.cell(row=row, column=column+1)
-                dept = cell.value
-                cell = sheet.cell(row=row, column=column+2)
-                number = cell.value
-                if not (name and dept and number):
-                    continue
+            name = cell.value
+            cell = sheet.cell(row=row, column=column+1)
+            dept = cell.value
+            cell = sheet.cell(row=row, column=column+2)
+            number = cell.value
+            if not (name and dept and number):
+                continue
 
-                entry = f'"{name};{number};{dept}"'
-                self.phone_data.append(entry)
+            entry = f'"{name};{number};{dept}"'
+            self.phone_data.append(entry)
 
-        self.phone_data.sort()
+    self.phone_data.sort()
 {% endhighlight %}
 
 Now that the data is ready, how can it be processed by Javascript?  I found this jsfiddle: [Incremental Search without Library](https://jsfiddle.net/bc_rikko/67ovedcm/).  This example works great, but it is
@@ -63,7 +64,7 @@ for a `list` and not a `table`. I also want to be able to incrementally search a
 
 Initally, this code will display all 200+ entries.  As you start typing, these entries are whittled down via your search phrase.
 
-{% highlight html %}
+{% highlight html linenos %}
 <b>Search:</b> <input type='text' id="keyword">
 <ul id="list"></ul><br />
 <TABLE id="dataTable" border="1" cellspacing="3" cellpadding="3">

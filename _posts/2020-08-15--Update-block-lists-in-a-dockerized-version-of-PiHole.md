@@ -2,7 +2,8 @@
 layout: post
 title: "Update block lists in a dockerized version of PiHole"
 date: 2020-08-15 11:40:47 +0000
-categories: shell docker pihole
+categories: docker pihole shell
+tags: docker pihole shell
 excerpt: Dockerized PiHole does not automatically update block lists. Here is a script to automate this task.
 ---
 
@@ -11,7 +12,7 @@ excerpt: Dockerized PiHole does not automatically update block lists. Here is a 
 
 **File:** update_pihole_block_lists.sh
 
-```
+{% highlight powershell linenos %}
 #!/bin/bash
 
 # Update block lists in a dockerized version of PiHole
@@ -36,6 +37,4 @@ echo "==============================================================" >> ${LOG}
 date >> ${LOG}
 echo "==============================================================" >> ${LOG}
 docker exec -t ${CONTAINER} pihole updateGravity >> ${LOG} 2>&1
-
-```
-
+{% endhighlight %}

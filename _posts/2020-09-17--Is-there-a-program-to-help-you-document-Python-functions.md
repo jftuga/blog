@@ -3,6 +3,7 @@ layout: post
 title: "Is there a program to help you document Python functions?"
 date: 2020-09-17 22:08:13 +0000
 categories: python
+tags: python
 excerpt: If you use VS Code for Python, this plug-in will improve your development process.
 ---
 
@@ -21,4 +22,3 @@ It would then create a doc-string for you that you could simply copy/paste into 
 ___
 
 The solution that I ended up going with was this `Visual Studio Code` extension: [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring). This is exactly what I was looking for and it works very well!
-

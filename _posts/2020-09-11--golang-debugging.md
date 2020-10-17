@@ -2,15 +2,16 @@
 layout: post
 title:  "GoLang Debugging"
 date:   2020-09-11 15:14:43 +0000
-categories: GoLang dlv Programming
+categories: dlv golang programming
+tags: dlv golang programming
 excerpt: A very short delve how-to
 ---
 
 ## How to start and run `dlv` -- the GoLang debugger
 
-```sh
+{% highlight shell linenos %}
 dlv debug cmd.go -- -f input_file.csv
-```
+{% endhighlight %}
 
 Once inside the debugger:
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Raspberry Pi Backup Script"
 date: 2020-05-19 17:11:45 +0000
-categories: shell raspberrypi sysadmin
+categories: raspberrypi shell sysadmin
+tags: raspberrypi shell sysadmin
 excerpt: A BASH shell script to backup only certain directories. Used on my RPi devices
 ---
 
@@ -11,7 +12,7 @@ excerpt: A BASH shell script to backup only certain directories. Used on my RPi 
 
 **File:** make_backup.sh
 
-```
+{% highlight shell linenos %}
 #!/bin/bash
 
 # Side note:
@@ -84,6 +85,4 @@ ls -l ${ARCHIVE}.xz >> ${LOG} 2>&1
 
 df -Th -x tmpfs -x devtmpfs -x vfat > ${DFLOG}
 
-```
-
-
+{% endhighlight %}

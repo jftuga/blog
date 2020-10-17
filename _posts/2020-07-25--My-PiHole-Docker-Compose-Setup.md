@@ -2,7 +2,8 @@
 layout: post
 title: "My PiHole Docker Compose Setup"
 date: 2020-07-25 16:44:27 +0000
-categories: pihole docker
+categories: docker pihole
+tags: docker pihole
 excerpt: A method to version your docker containers and revert to older one if needed
 ---
 

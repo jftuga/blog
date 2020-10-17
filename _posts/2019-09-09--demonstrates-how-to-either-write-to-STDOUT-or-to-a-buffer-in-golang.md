@@ -3,6 +3,7 @@ layout: post
 title: "How to Either Write to STDOUT or to a Buffer in GoLang"
 date: 2019-09-09 09:18:53 +0000
 categories: golang
+tags: golang
 excerpt: Use a single bufio variable to output to either a file or the screen.
 ---
 
@@ -11,7 +12,7 @@ excerpt: Use a single bufio variable to output to either a file or the screen.
 
 **File:** bufWrite.go
 
-```
+{% highlight go linenos %}
 // demonstrates how to either write to STDOUT or to a buffer
 
 package main
@@ -53,7 +54,4 @@ func main() {
         fmt.Printf("Wrote %d bytes to file: %s\n", count, fname)
     }
 }
-
-```
-
-
+{% endhighlight %}

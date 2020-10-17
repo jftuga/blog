@@ -3,6 +3,7 @@ layout: post
 title: "multiping without admin privileges"
 date: 2018-11-29 15:00:33 +0000
 categories: c# networking sysadmin
+tags: c# networking sysadmin
 excerpt: Here's a way to ping a bunch of systems in parallel.
 ---
 
@@ -11,7 +12,7 @@ excerpt: Here's a way to ping a bunch of systems in parallel.
 
 **File:** mping.cs
 
-```
+{% highlight c# linenos %}
 /*
  * Mulithreaded ping that does not require admin privileges
  * Give IPs and/or hostnames on command-line
@@ -154,8 +155,4 @@ namespace mping
         #endregion
     }
 }
-
-```
-
----
-
+{% endhighlight %}

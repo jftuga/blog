@@ -3,6 +3,7 @@ layout: post
 title: "Retrieve EC2 instance type info such as vCPU, clock speed, memory, network"
 date: 2020-08-04 01:57:49 +0000
 categories: aws
+tags: aws
 excerpt: Using the AWS CLI and JQ to extract EC2 instance-type meta data
 ---
 
@@ -16,4 +17,3 @@ I created this for a friend and thought it might be useful to others.  Since he 
 I have also written a cross-platform program to get `spotprice` information which I think is a little easier than using the `aws` CLI. It also runs faster and has a few more features.
 
 * spotprice: [https://github.com/jftuga/spotprice](https://github.com/jftuga/spotprice)
-

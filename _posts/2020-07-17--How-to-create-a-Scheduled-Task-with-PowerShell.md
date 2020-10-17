@@ -3,6 +3,7 @@ layout: post
 title: "How to create a Scheduled Task with PowerShell"
 date: 2020-07-17 11:43:37 +0000
 categories: powershell
+tags: powershell
 excerpt: Creating Scheduled Tasks via PowerShell can be useful in a Server Core environment.
 ---
 
@@ -11,7 +12,8 @@ excerpt: Creating Scheduled Tasks via PowerShell can be useful in a Server Core 
 
 **File:** create_scheduled_task.ps1
 
-```
+
+{% highlight powershell linenos %}
 # This task will run once per day at 9AM, only on week days
 
 $A = New-ScheduledTaskAction -Execute "c:\scripts\my_project\scheduled_task.bat" -WorkingDirectory "c:\scripts\my_project"
@@ -20,6 +22,4 @@ $P = New-ScheduledTaskPrincipal -UserId "LOCALSERVICE" -LogonType ServiceAccount
 $S = New-ScheduledTaskSettingsSet
 $D = New-ScheduledTask -Action $A -Principal $P -Trigger $T -Settings $S
 Register-ScheduledTask "My Project" -InputObject $D
-
-```
-
+{% endhighlight %}

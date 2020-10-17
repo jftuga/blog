@@ -2,7 +2,8 @@
 layout: post
 title: "Quick JQ Example"
 date: 2019-12-31 15:00:10 +0000
-categories: batchfile json jq
+categories: batchfile jq json
+tags: batchfile jq json
 excerpt: Wrapping my head around jq and how to use it to filter data
 ---
 
@@ -11,19 +12,17 @@ excerpt: Wrapping my head around jq and how to use it to filter data
 
 **File:** getNames.bat
 
-```
+{% highlight batch linenos %}
 @echo off
 rem use -r to return strings without surrounding double-quotes
 jq -r ".Buckets | .[] | .Name" s3.json
-
-```
+{% endhighlight %}
 
 ---
 
-
 **File:** s3.json
 
-```
+{% highlight json linenos %}
 {
     "Buckets": [
         {
@@ -64,8 +63,4 @@ jq -r ".Buckets | .[] | .Name" s3.json
         "ID": "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo"
     }
 }
-
-
-```
-
-
+{% endhighlight %}

@@ -2,7 +2,8 @@
 layout: post
 title: "Windows Server 2019 Core Post Installation"
 date: 2020-09-25 13:34:00 +0000
-categories: windows command-line
+categories: command-line windows
+tags: command-line windows
 excerpt: This is a good list of things to do after spinning up a Windows VM.
 ---
 
@@ -46,14 +47,14 @@ In AD, move the new VM to the appropriate OU under Servers, and the under its ob
 * (then restart taskmgr)
 
 ## WSUS Key Fix - only needed if VM is deployed from a Template
-```
+{% highlight batch linenos %}
 net stop wuauserv
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate" /v AccountDomainSid /f
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate" /v PingID /f
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate" /v SusClientId /f
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate" /v SusClientIdValidation /f
 wuauclt /resetauthorization /detectnow
-```
+{% endhighlight %}
 
 ## Backups
 * Add the VM to your backup rotation.
@@ -99,4 +100,3 @@ ___
 * It is also handy to have these programs installed on Server Core
 * [https://www.nirsoft.net/utils/task_scheduler_view.html](https://www.nirsoft.net/utils/task_scheduler_view.html)
 * [https://www.nirsoft.net/utils/full_event_log_view.html](https://www.nirsoft.net/utils/full_event_log_view.html)
-

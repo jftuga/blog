@@ -3,6 +3,7 @@ layout: post
 title: "PowerShell Test-is64bit"
 date: 2018-02-05 04:28:14 +0000
 categories: powershell
+tags: powershell
 excerpt: A PS function to determine if an executable is 32 or 64 bit
 ---
 
@@ -11,7 +12,7 @@ excerpt: A PS function to determine if an executable is 32 or 64 bit
 
 **File:** Test-is64bit.ps1
 
-```
+{% highlight powershell linenos %}
 function Test-is64Bit {
     param($FilePath)
 
@@ -41,15 +42,13 @@ function Test-is64Bit {
 }
 
 Test-is64bit $args[0]
-
-```
+{% endhighlight %}
 
 ___
 
 
 To check a group of files:
 
-``
-    dir *.exe | foreach { .\Test-is64bit.ps1 $_ } | Sort-Object Is64Bit
-``
-
+{% highlight powershell linenos %}
+dir *.exe | foreach { .\Test-is64bit.ps1 $_ } | Sort-Object Is64Bit
+{% endhighlight %}

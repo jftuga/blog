@@ -2,7 +2,8 @@
 layout: post
 title:  "In case you didn't know: Python 3.8 f-strings support = for self-documenting expressions and debugging"
 date:   2020-08-26 01:59:10 +0000
-categories: Python Programming
+categories: programming python
+tags: programming python
 excerpt: Using the = sign within f-strings can speed up Python 3.8 debugging.
 ---
 
@@ -14,10 +15,12 @@ ____
 
 input:
 
-    from datetime import date
-    user = 'eric_idle'
-    member_since = date(1975, 7, 31)
-    f'{user=} {member_since=}'
+{% highlight python linenos %}
+from datetime import date
+user = 'eric_idle'
+member_since = date(1975, 7, 31)
+f'{user=} {member_since=}'
+{% endhighlight %}
 
 output:
 
@@ -27,8 +30,10 @@ ____
 
 input:
 
-    delta = date.today() - member_since
-    f'{user=!s}  {delta.days=:,d}'
+{% highlight python linenos %}
+delta = date.today() - member_since
+f'{user=!s}  {delta.days=:,d}'
+{% endhighlight %}
 
 output *(no quotes; commas)*:
 
@@ -38,9 +43,11 @@ ____
 
 input:
 
-    from math import cos,radians
-    theta=30
-    print(f'{theta=}  {cos(radians(theta))=:.3f}')
+{% highlight python linenos %}
+from math import cos,radians
+theta=30
+print(f'{theta=}  {cos(radians(theta))=:.3f}')
+{% endhighlight %}
 
 output:
 

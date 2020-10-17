@@ -2,7 +2,8 @@
 layout: post
 title: "Updating Dell Servers through DRAC or Lifecycle Controller"
 date: 2019-07-01
-categories: sysadmin hardware
+categories: hardware sysadmin
+tags: hardware sysadmin
 excerpt: A straight-forward recipe on how to quickly update all Dell server firmwares.
 ---
 

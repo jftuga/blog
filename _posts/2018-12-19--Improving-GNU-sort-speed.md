@@ -3,6 +3,7 @@ layout: post
 title: "Improving GNU sort speed"
 date: 2018-12-19 04:42:02 +0000
 categories: command-line
+tags: command-line
 excerpt: How to better use your hardware to reduce GNU sort times
 ---
 
@@ -23,14 +24,15 @@ From the man page:
 
 You will probably also want to use:
 
-*Set LC_ALL=C to get the traditional sort order that uses native byte values.*
+Set *LC_ALL=C* to get the traditional sort order that uses native byte values.
 
 ____
 
 Example:
-
-    export LC_ALL=C
-    sort -S 8G --parallel=4 -T /mnt/fast_ssd/tmp unsorted.txt > sorted.txt
+{% highlight shell linenos %}
+export LC_ALL=C
+sort -S 8G --parallel=4 -T /mnt/fast_ssd/tmp unsorted.txt > sorted.txt
+{% endhighlight %}
 
 Note, this will not use 8 gigs of memory unless it is needed (e.g. the file is very large).  After sort consumes the given memory limit, it will then start using tmp files to complete the sort.  In this case, it is beneficial to use -T to place sort's tmp files on a fast disk.  Your should also not exceed the number of cores your system has when using --parallel.
 
@@ -40,8 +42,4 @@ References:
 
 * [gnu sort - default buffer size](https://stackoverflow.com/questions/37514283/gnu-sort-default-buffer-size)
 * [How to sort big files?](https://unix.stackexchange.com/questions/120096/how-to-sort-big-files)
-
-___
-
-[Reddit discussion](https://www.reddit.com/r/commandline/comments/a7hq5n/psa_improving_gnu_sort_speed/)
-
+* [Reddit discussion](https://www.reddit.com/r/commandline/comments/a7hq5n/psa_improving_gnu_sort_speed/)
