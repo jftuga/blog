@@ -59,14 +59,14 @@ A group may contain one or more apps
 * * Center: Network Organization
 * * Right: Departments
 * * Create an alphabetical, comma separated list of apps
-* * * Example: PubMed, Cardio Calc
+* * * Example: Cardio Calc, PubMed
 
 * Step 2
 * * Left: Smart Device Group
 * * Right: New
 * * Tab: Mobile Device Group
 * * Display Name: Dept XYZ, where XYZ is the exact name given in Step 1
-* * * Example: Dept PubMed, Cardio Calc
+* * * Example: Dept Cardio Calc, PubMed
 * * Tab: Criteria
 * * Right: Click Add
 * * Criteria: Department
