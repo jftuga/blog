@@ -81,6 +81,19 @@ A group may contain one or more apps
 * * Right: Scope
 * *  * If the iPad apps no dot meet any of the Scope criteria, the Edit and Add in a the new Department
 
+## Add a New App
+* Step 1
+* * Left: Mobile Device Apps
+* * Under the `No category assigned` section, select your App
+* * * Initially, this scope is: `No scope defined`
+* Step 2
+* * Left: Under the `Scope` tab, select `Edit`
+* Step 3
+* * Right: Click `Add`
+* * Right: Select `Mobile Device Groups`
+* * Right: `Add` your `Dept AppList`
+* * Right: Click `Save`
+
 ## Add or Change an app group to an iPad
 * Step 1
 * * Left: search inventory 
