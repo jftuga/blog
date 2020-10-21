@@ -26,6 +26,15 @@ This assumes that the iPad has been imported into this website: [https://school.
 * * Open Settings -> Reset -> Erase All Content & Settings
 * * (this takes about 5 minutes to complete)
 
+## Obtain Free or Purchased iPad Apps
+* Only Step
+* * URL: [https://school.apple.com](https://school.apple.com)
+* * Left: Apps and Books
+* * Middle: Search for the desired App
+* * Right: Under `Buy Licenses` select a `Location` and `Quantity` under `Buryt Licenses`
+* * Right: Click `Get`
+* In about a minute or two, you should see the app under the `Manage Licenses` section
+
 ## Log into JAMF
 * * URL: https://YourOrgName.jamfcloud.com/
 * * Username: *your username*
