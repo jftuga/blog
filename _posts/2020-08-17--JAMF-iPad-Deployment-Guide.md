@@ -77,7 +77,7 @@ A group may contain one or more apps
 * Step 3
 * * This may or may not need to be done, depending on the scope restrictions.
 * * Left: Configuration Profiles
-* * Right: UHC Restrictions
+* * Right: YourOrgName Restrictions
 * * Right: Scope
 * *  * If the iPad apps no dot meet any of the Scope criteria, the Edit and Add in a the new Department
 
@@ -106,7 +106,7 @@ A group may contain one or more apps
 ## Add a website to the allowed content filter
 * Step 1
 * * Left: Configuration Profiles
-* * Right: UHC Content Filter  Main
+* * Right: YourOrgName Content Filter  Main
 * * Center: Content Filter
 * * Right: Edit
 
