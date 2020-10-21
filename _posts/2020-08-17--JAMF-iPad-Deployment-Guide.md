@@ -31,9 +31,9 @@ This assumes that the iPad has been imported into this website: [https://school.
 * * URL: [https://school.apple.com](https://school.apple.com)
 * * Left: Apps and Books
 * * Middle: Search for the desired App
-* * Right: Under `Buy Licenses` select a `Location` and `Quantity` under `Buryt Licenses`
+* * Right: Under `Buy Licenses` select a `Location` and `Quantity` under `Buy Licenses`
 * * Right: Click `Get`
-* In about a minute or two, you should see the app under the `Manage Licenses` section
+* In about a minute or two, you should see the App under the `Manage Licenses` section
 
 ## Log into JAMF
 * * URL: https://YourOrgName.jamfcloud.com/
