@@ -86,13 +86,26 @@ A group may contain one or more apps
 * * Left: Mobile Device Apps
 * * Under the `No category assigned` section, select your App
 * * * Initially, this scope is: `No scope defined`
-* Step 2
+* Step 2a
 * * Left: Under the `Scope` tab, select `Edit`
-* Step 3
+* Step 2b
 * * Right: Click `Add`
 * * Right: Select `Mobile Device Groups`
 * * Right: `Add` your `Dept AppList`
 * * Right: Click `Save`
+* Step 3a
+* * Right: Under `General` tab, select `Edit`
+* Step 3b
+* * Right: Under `Category`, select the appropriate category from the drop down
+* * Right: Under `Distribution Method`, select `Install Automtically, Prompt User`
+* * Right: Click `Save`
+* Step 4a
+* * Right: Under `Manage Distribution` tab, select `Edit`
+* Step 4b
+* * Right: Check `Assign Content Purchased in Volume`
+* * Right: Select `Location` from drop down
+* * Right: Click `Save`
+
 
 ## Add or Change an app group to an iPad
 * Step 1
