@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "PowerShell Code Signing
-date: 2020-11-16 19:07 +0000
+title: "PowerShell Code Signing"
+date: 2020-11-16 19:07:00 +0000
 categories: powershell
 tags: 
 excerpt: A quick note on how to do PowerShell code signing
