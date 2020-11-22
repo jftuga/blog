@@ -3,7 +3,9 @@
 layout: post
 title: "How To Run Python Within A Docker Container On Windows 10"
 date: 2020-11-22 23:20:32 +0000
-categories: python docker windows
+categories: python docker windows pyinstaller
+tags: python docker windows pyinstaller
+excerpt: A brief tutorial on how to run Python in a Docker container to create a stand-alone Windows executable
 ---
 
 This is a brief tutorial on how to run Python in a Docker container.  It's not meant to be an all inclusive dissertation on Docker but rather a *let's get you going* style brief. It assumes that you are comfortable using the command-line, *cmd.exe*.
