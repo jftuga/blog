@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "How To Block Domains In Google Search Results"
-date: 2020-11-22 23:20:32 +0000
+date: 2020-12-25 23:59:32 +0000
 categories: google uBlock
 tags: google uBlock
 excerpt: Configure uBlock Origin to block search results for a given domain
