@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "How To Block Domains In Google Search Results"
