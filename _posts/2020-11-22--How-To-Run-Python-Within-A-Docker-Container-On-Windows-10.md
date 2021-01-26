@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "How To Run Python Within A Docker Container On Windows 10"
