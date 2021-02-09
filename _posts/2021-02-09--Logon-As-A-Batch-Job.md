@@ -16,5 +16,5 @@ command-line tool.  In order for successful operation, it must be used
 in the `Run As Administrator` context.
 
 Windows command-line program:
-* [https://github.com/jftuga/logon_as_batch_job](/logon_as_batch_job)
+* [logon_as_batch_job](https://github.com/jftuga/logon_as_batch_job)
 
