@@ -33,7 +33,7 @@ I now know what the first available address is.  (The program will stop searchin
 
 **Download**
 
-https://github.com/jftuga/nextfreeip
+[nextfreeip](https://github.com/jftuga/nextfreeip)
 
 Binaries for Windows, macOS and Linux can be found on the [releases](https://github.com/jftuga/nextfreeip/releases) page -- or you can compile from *golang* source.
 
