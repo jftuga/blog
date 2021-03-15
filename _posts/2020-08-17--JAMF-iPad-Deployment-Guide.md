@@ -186,3 +186,12 @@ ___
 * * Right: under Trusted Server Certificate Names, click Add
 * * Right: Input the hostname that is serving the certificate. 
 * * * Example: *radius.idm.school.edu*
+
+## Troubleshooting: iPads can not upgrade to newest iOS version
+* Updates will not run if the iPad battery is low
+* Updates will not run if the there is low storage space
+* * Settings -> General -> About -> Available
+* A configuration profile has the following restriction enabled, which will need to be temporarily disabled:
+* * Configuration Profiles -> *Profile Name* -> Restrictions -> Functionality -> Defer Software Update
+* * This change must then be pushed to your iPads
+
