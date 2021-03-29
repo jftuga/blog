@@ -6,7 +6,7 @@ categories: github github-api
 tags: github github-api
 ---
 
-[## stackoverflow: How to retrieve the list of all GitHub repositories of a person?](https://stackoverflow.com/questions/8713596/how-to-retrieve-the-list-of-all-github-repositories-of-a-person)
+## [How to retrieve the list of all GitHub repositories of a person?](https://stackoverflow.com/questions/8713596/how-to-retrieve-the-list-of-all-github-repositories-of-a-person)
 
 Question Date: 2012-01-03 09:17:09
 
